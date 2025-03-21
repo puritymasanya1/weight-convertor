@@ -1,5 +1,5 @@
 weight= float(input("Enter your weight: "))
-unit= input("Kilograms or Pounds? (K or L): ").strip().upper()
+unit= input("Kilograms or Pounds? (K or L): ").strip().upper() # Removes spaces and converts input to uppercase
 
 if unit == "K":
     weight = weight * 2.205
